@@ -1,10 +1,10 @@
-NAME        =   horde
+NAME        =   replace
 
 CC          =   c++
 
-FLAG        =   -std=c++98 -Wall -Wextra -Werror -pedantic
+FLAG        =   -std=c++98 -Wall -Wextra -Werror -pedantic -g3
 
-C_FILES     =   main.cpp Zombie.cpp zombieHorde.cpp
+C_FILES     =   main.cpp Replace.cpp
 
 OBJ_DIR     =   make
 

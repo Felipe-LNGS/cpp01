@@ -1,10 +1,10 @@
-NAME        =   horde
+NAME        =   ptr
 
 CC          =   c++
 
 FLAG        =   -std=c++98 -Wall -Wextra -Werror -pedantic
 
-C_FILES     =   main.cpp Zombie.cpp zombieHorde.cpp
+C_FILES     =   main.cpp
 
 OBJ_DIR     =   make
 
