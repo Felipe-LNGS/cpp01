@@ -12,5 +12,5 @@ int main()
     harl.complain("debug");
     std::cout << std::endl << std::setw(30) << UNDERLINE << MAGENTA << "WARNING" << RESET <<std::endl;
     harl.complain("warning");
-
+    return 0;
 }
