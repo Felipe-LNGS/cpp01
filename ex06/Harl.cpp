@@ -50,7 +50,6 @@ void Harl::complain(std::string level){
 		for(int i = 1; i < 4 ; i++)
 			(this->*functionptr[i])();
 	break ;
-
 	case 2 :
 	for(int i = 2; i < 4 ; i++)
 		(this->*functionptr[i])();
